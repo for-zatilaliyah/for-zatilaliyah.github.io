@@ -6,7 +6,7 @@ let doi;
 if (url.searchParams.get('in') != null) {
     doi = url.searchParams.get('in');
 }else {
-    doi = "SRI MULYANI";
+    doi = "JEJE";
 }
 
 let footer = document.getElementById("harisaid");
@@ -68,7 +68,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
         Swal.fire('Kalau belum jangan lupa makan yaa').then((result) => {
           Swal.fire({
             title: ' ',
-            html: `Aku tau ko kamu lagi marah sama aku!`,
+            html: `Gw tau ko lu lagi marah sama gw!`,
             timer: 2000,
             timerProgressBar: true,
             showConfirmButton: false,
@@ -76,49 +76,49 @@ document.querySelector(".tombol").addEventListener('click', function () {
             if (result.dismiss === Swal.DismissReason.timer) {
               Swal.fire({
                 title: ' ',
-                html: `Lagi bt sama aku!`,
+                html: `Lagi bt sama gw!`,
                 timer: 2000,
                 timerProgressBar: true,
                 showConfirmButton: false,
               }).then((result) => {
                 if (result.dismiss === Swal.DismissReason.timer) {
-                  Swal.fire('Aku minta maaf untuk segala-galanya. Maaf karena membuat kamu menangis. :)').then((result) => {
+                  Swal.fire('Gw minta maaf . :)').then((result) => {
                     Swal.fire(
-                      'sering ninggalin kamu, bikin kamu nunggu terus,Maaf udah membuat kamu kecewa dan sedih',
-                      '',
-                      'info'
+                      'MAAFIN!!,   ',
+                      'gw minta maaf atas sikap gw yang egois,kaya anak kecil,maaf gw selalu bikin lu marah,bikin lu badmood gw minta maaf gw gak mau berantem terus kaya gini!',
+                      'success'
                     ).then((result) => {
                       Swal.fire(
-                        'Maafin aku. Aku sayang kamu!.',
+                        'Please maafin gw. gw sayang sama elu!.',
                         '',
                         'success'
                       ).then((result) => {
                         Swal.fire("I LOVE YOU", '<i class="fas fa-heart text-danger animate__animate animate__heartBeat animate__repeat-3"></i>').then((result) => {
                           Swal.fire({
                             title: 'Jawab yang jujur ya!',
-                            text: 'Kamu mau maafin aku gak?',
+                            text: 'lu  mau maafin gw gak?',
                             showDenyButton: true,
-                            confirmButtonText: `Dimaafin`,
+                            confirmButtonText: `Dimaafin!`,
                             denyButtonText: `Enggak!`,
                           }).then((result) => {
                             /* Read more about isConfirmed, isDenied below */
                             if (result.isConfirmed) {
                                 Swal.fire({
                                     title: ' ',
-                                    html: `Terima kasih udah mau maafin aku!`,
+                                    html: `Terima kasih by udah mau maafin gw!`,
                                     timer: 2000,
                                     timerProgressBar: true,
                                     showConfirmButton: false,
                               }).then((result) => {
-                                Swal.fire('Aku janji', 'Aku akan berusaha lagi untuk menjadi yang lebih baik buat kamu ', 'success').then((result) => {
+                                Swal.fire('Gw janji', 'gw akan berusaha lagi untuk menjadi yang lebih baik buat lu ', 'success').then((result) => {
                                   Swal.fire("I LOVE YOU", '<i class="fas fa-heart text-danger animate__animate animate__heartBeat animate__repeat-3"></i>').then((result) => {
                                     selesai()
                                   });
                                 })
                               })
                             } else if (result.isDenied) {
-                              Swal.fire('Oh okedeh gakpp kalo kamu gak mau maafin aku').then((result) => {
-                                Swal.fire('<i class="fas fa-sad-cry"></i>').then((result) => {
+                              Swal.fire('Oh okedeh gakpp kalo lu gak mau maafin gw').then((result) => {
+                                Swal.fire("Marahnya jangan lama-lama",'<i class="fas fa-sad-cry"></i>').then((result) => {
                                   selesai()
                                 });
                               })
